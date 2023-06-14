@@ -1,0 +1,23 @@
+input.formcontrol#input,
+textarea.formcontrol,
+input.formcontrol:focus,
+textarea.formcontrol:focus {
+  border-radius: 0;
+  background-color: var(--dark-blue);
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  border-bottom: 1px solid var(--white);
+}
+
+input.formcontrol::placeholder,
+textarea.formcontrol::placeholder {
+  color: white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}

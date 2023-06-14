@@ -1,0 +1,80 @@
+.video-section {
+  background: linear-gradient(rgba(37, 82, 101, 0.7), rgba(37, 82, 101, 0.7)),
+    url("../../assets/banner.png");
+  background-position: cover;
+  color: white;
+}
+
+.col-para-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-section iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video-section .close-modal {
+  color: white !important;
+  font-size: var(--big-text);
+  background-color: transparent;
+  border: none;
+}
+
+img,
+svg {
+  vertical-align: none;
+}
+
+.video-section .close-modal:hover {
+  border: none;
+  stroke: none;
+}
+
+.video-section .modal {
+  z-index: 99999 !important;
+}
+.video-section .modal-content {
+  /* background-color: var(--dark-blue); */
+
+  background-color: rgba(37, 82, 101, 0.7);
+}
+
+.video-section .modal-body {
+  height: 100%;
+}
+
+.video-section .modal-body {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex: unset;
+}
+
+.video-section .video-section-wrapper p.paraM-text {
+  font-size: var(--para-text);
+  font-weight: lighter;
+  line-height: 1.7;
+}
+
+.modal-open {
+  display: block;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: var(--para2-text);
+  color: white;
+}
+
+.modal-open span {
+  font-size: var(--medium-text);
+}
+.modal-open:hover {
+  background-color: white;
+  border: none;
+  color: var(--dark-blue);
+}

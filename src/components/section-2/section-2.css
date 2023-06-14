@@ -1,0 +1,6 @@
+.section-2-para {
+  font-size: calc(1.305rem + 0.66vw);
+  /* color: var(--blue); */
+  font-family: var(--roboto);
+  font-weight: 100;
+}

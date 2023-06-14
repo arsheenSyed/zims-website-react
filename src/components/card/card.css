@@ -1,0 +1,131 @@
+.intro .heading.paraM-text {
+  letter-spacing: 0.3rem;
+}
+
+.card-col {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.section-btn {
+  font-size: var(--paraM-text) !important;
+  color: var(--green);
+  transition: 0.3s ease;
+}
+
+.card .section-btn.card-btn {
+  color: var(--green);
+}
+
+.card .section-btn.card-btn:hover {
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+.card-col .card {
+  position: relative;
+  height: 300px;
+}
+
+.card-col .card .intro {
+  position: absolute;
+  top: 48%;
+
+  background-color: rgba(37, 82, 101, 0.8);
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-top: 2rem;
+  transition: 0.3s ease;
+}
+
+.card-col .card .intro .hide-para {
+  display: none;
+  transition: 0.2s ease;
+}
+.card-col .card:hover .intro {
+  top: 0;
+}
+
+.card-col .card:hover .intro .hide-para {
+  display: block;
+}
+
+.myCards .row > * {
+  padding-right: calc(var(--bs-gutter-x) * 1.5);
+  padding-left: calc(var(--bs-gutter-x) * 1.5);
+}
+
+.nav-tabs-cards {
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--blue);
+}
+
+@media (max-width: 992px) {
+  .myCards .row > * {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+}
+@media (max-width: 992px) {
+  .myCards h3 {
+    font-size: 1.2rem;
+  }
+
+  .myCards p.hover-para {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .section-card-btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .intro .paraM-text.desc span {
+    display: none;
+  }
+
+  a.card-btn.section-btn {
+    font-size: var(--paraM-text);
+  }
+
+  a.card-btn.section-btn span {
+    font-size: var(--medium-text);
+  }
+}
+
+@media (max-width: 334px) {
+  .intro p.desc.paraM-text {
+    font-size: var(--small-text);
+  }
+}
+
+@media (max-width: 360px) {
+  .card-col .card {
+    position: relative;
+    height: 310px;
+  }
+}
+
+@media (max-width: 380px) {
+  .myCards .row > * {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+}

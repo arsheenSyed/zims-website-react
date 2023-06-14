@@ -1,0 +1,77 @@
+  <div className="map-wrapper">
+        {/* <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2877709935697!2d55.370672674312665!3d25.26090322911942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db3b14f9b09%3A0xcae0462a35a0d09!2sDubai%20Airport%20Free%20Zone%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1672881753025!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe> */}
+        <h1>
+          <FaPhone />
+        </h1>
+        {/* <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2877709935697!2d55.370672674312665!3d25.26090322911942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db3b14f9b09%3A0xcae0462a35a0d09!2sDubai%20Airport%20Free%20Zone%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1672881753025!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          styles={"border:0"}
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe> */}
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-7 col-lg-8">
+            <div className="main-content">
+              <h1> Contact Us</h1>
+              <p>We'd love to hear from you</p>
+              <a href="mailto:"></a>
+
+              <div className="social-menu">
+                <h6>Follow us on</h6>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">behance</a>
+                <a href="#">dribble</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-5 col-lg-4 contact-form-map">
+            <form action="#" className="card p-4">
+              <h6>Contact Us </h6>
+              <input type="text" placeholder="Name" className="form-control" />
+              <input
+                type="email"
+                placeholder="Email"
+                className="form-control"
+              />
+
+              <input
+                type="number"
+                placeholder="Phone"
+                className="form-control"
+              />
+
+              <input
+                type="text"
+                placeholder="Subject"
+                className="form-control"
+              />
+
+              <textarea
+                placeholder="Message"
+                className="form-control"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+              <button className="btn btn-lg btn-contact hero-btn">
+                Learn More
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>

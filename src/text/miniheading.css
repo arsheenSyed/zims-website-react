@@ -1,0 +1,31 @@
+h3.miniHeading.s {
+  font-size: var(--medium3-text) !important;
+}
+
+h3.miniHeading.m {
+  font-size: var(--medium2-text) !important;
+}
+
+h3.miniHeading.l {
+  font-size: var(--medium-text) !important;
+}
+
+h3.miniHeading.green {
+  color: var(--green);
+}
+
+h3.miniHeading.blue {
+  color: var(--dark-blue);
+}
+
+h3.miniHeading.white {
+  color: var(--white);
+}
+
+h3.miniHeading.bold {
+  font-weight: bold;
+}
+
+h3.miniHeading.light {
+  font-weight: 300;
+}

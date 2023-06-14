@@ -1,0 +1,50 @@
+.testimonials .carousel-indicators {
+  /* position: absolute;
+    right: 0;
+    bottom: -80%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none; */
+  /* border-radius: 50%; */
+  /* */
+  background-color: black;
+  display: none;
+}
+
+/* #ffd700 */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: var(--dark-blue);
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-inner {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+p.stars {
+  color: #ffd700;
+}
+
+p .quotes {
+  font-size: var(--big-text) !important;
+  color: var(--dark-blue);
+}
+
+.carousel-inner img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,35 @@
+h3.mediumText.s {
+  font-size: var(--medium3-text) !important;
+}
+
+h3.mediumText.m {
+  font-size: var(--medium2-text) !important;
+}
+
+h3.mediumText.l {
+  font-size: var(--medium-text) !important;
+}
+
+/* h3.mediumText.medium2 {
+    font-size
+  } */
+
+h3.mediumText.green {
+  color: var(--green);
+}
+
+h3.mediumText.blue {
+  color: var(--dark-blue);
+}
+
+h3.mediumText.white {
+  color: var(--white);
+}
+
+h3.mediumText.bold {
+  font-weight: bold;
+}
+
+h3.mediumText.light {
+  font-weight: 300;
+}

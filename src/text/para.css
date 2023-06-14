@@ -1,0 +1,43 @@
+p.para.s {
+  font-size: var(--para-text) !important;
+}
+
+p.para.m {
+  font-size: var(--paraM-text) !important;
+}
+
+p.para.l {
+  font-size: var(--para2-text) !important;
+}
+
+p.para.medium {
+  font-size: var(--medium-text) !important;
+}
+
+/* p.para.medium2 {
+  font-size
+} */
+
+p.para.green {
+  color: var(--green);
+}
+
+p.para.blue {
+  color: var(--dark-blue);
+}
+
+p.para.white {
+  color: var(--white);
+}
+
+p.para.bold {
+  font-weight: bold;
+}
+
+p.para.light {
+  font-weight: 300;
+}
+
+p.para.normal {
+  font-weight: 500;
+}

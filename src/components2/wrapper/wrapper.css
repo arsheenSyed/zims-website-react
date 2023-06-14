@@ -1,0 +1,9 @@
+div.Wrapper.blue {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+div.Wrapper.white {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}

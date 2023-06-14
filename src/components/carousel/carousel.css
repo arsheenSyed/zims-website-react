@@ -1,0 +1,233 @@
+.big-text {
+  font-size: var(--medium2-text);
+  color: var(--green);
+}
+
+.carousel-caption .big-text {
+  letter-spacing: 0.3rem;
+}
+
+.caption-1 {
+  text-align: center !important;
+}
+
+.carousel {
+  position: relative;
+}
+
+/*--------------------------------------------- Image slider -------------------------------------------------------- */
+
+.slide-img {
+  width: 100%;
+  height: 500px;
+}
+
+.slide-img:nth-child(1) {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/carouselImg-2a.jpg");
+
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(80%); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-img:nth-child(2) {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/carouselImg-2b.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-img:nth-child(3) {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/carouselImg-3a.jpg");
+
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/*------------------------------------------------------- Image slider -------------------------------------------------------------*/
+
+.carousel-caption {
+  position: absolute;
+  top: var(--hero-title-top);
+  text-align: left;
+}
+
+/* button */
+
+.hero-btn {
+  text-transform: capitalize;
+  background-color: var(--blue);
+  color: white !important;
+  font-size: 1rem;
+  --bs-btn-border-radius: 3.4rem;
+  margin-top: 0.5rem;
+  --bs-btn-padding-y: 0.8rem;
+  --bs-btn-padding-x: 2rem;
+}
+
+.hero-btn:hover {
+  background-color: var(--blue);
+  color: white !important;
+}
+
+.hero-btn span {
+  font-size: 1.2rem;
+}
+
+/* button */
+/* --------------------------------------------------- animation ------------------------------------------------------------- */
+/* text */
+.slide-img .carousel-caption .hero-btn:hover {
+  background-color: var(--blue-hover);
+}
+
+.slide-img .carousel-caption {
+  transform: translateY(500%);
+}
+
+.slide-img.active .carousel-caption {
+  animation: moveInLeft 1s ease forwards 1;
+}
+
+@keyframes moveInLeft {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInRight {
+  to {
+    margin-right: 0;
+  }
+}
+
+@keyframes moveInBottom {
+  to {
+    margin-bottom: 0;
+  }
+}
+/* text */
+
+/* image */
+.slide-img.active {
+  animation: scale 10s linear infinite;
+}
+
+/* ------------------------------------------------- animation ------------------------------------ */
+
+/* -------------------------------- Responsive ----------------------- */
+@media (max-width: 991.98px) {
+  .slide-img {
+    height: 470px;
+  }
+
+  .carousel-caption {
+    --hero-title-top: 15%;
+  }
+
+  .carousel-caption .massive-text {
+    --massive-text: calc(1rem * 2.5);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .caption-1 {
+    text-align: left !important;
+  }
+
+  .carousel-caption {
+    --hero-title-top: 7%;
+  }
+
+  .carousel-caption .big-text {
+    --big-text: calc(1rem * 1.5);
+  }
+  .carousel-caption .massive-text {
+    --massive-text: calc(1rem * 2.5);
+  }
+
+  .hero-btn {
+    /* --bs-btn-padding-y: 0.6rem;
+    --bs-btn-padding-x: 2rem; */
+  }
+}
+
+@media (max-width: 638px) {
+  .carousel-caption .big-text {
+    --big-text: calc(1rem * 1.3);
+  }
+
+  .carousel-caption {
+    --hero-title-top: 12%;
+    right: 5%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 590px) {
+  .carousel-caption {
+    --hero-title-top: 8%;
+  }
+}
+
+/* it was 518px */
+@media (max-width: 500px) {
+  .carousel-caption {
+    --hero-title-top: 8%;
+    left: 12%;
+    right: 10%;
+  }
+
+  .carousel-caption h1.myHeading.m {
+    font-size: calc(1rem * 2.5);
+    color: var(--green);
+  }
+
+  .carousel-caption .big-text {
+    display: none;
+  }
+}
+
+@media (max-width: 473px) {
+  .carousel-caption h1.myHeading.m {
+    /* font-size: calc(1rem * 2.4); */
+    color: var(--green);
+  }
+
+  .carousel-caption {
+    --hero-title-top: 5%;
+    right: 7%;
+    left: 9%;
+  }
+}
+
+@media (max-width: 385px) {
+  .carousel-caption {
+    right: 5%;
+    left: 7%;
+  }
+
+  .hero-btn {
+    /* --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1.6rem; */
+  }
+}

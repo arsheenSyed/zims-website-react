@@ -1,0 +1,83 @@
+<div className="carousel-caption caption-1">
+              <div className="big-text">Lorem Ipsum is simply</div>
+              {/* <span className="massive-text">
+                Start Up <span>Business</span> Solutions
+              </span> */}
+              <Heading color="white" weight="bold" size="m">
+                {" "}
+                Start Up <span>Business</span> Solutions
+              </Heading>
+              {/* <p className="small-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard{" "}
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </span>
+              </p> */}
+              <Para weight="light" color="white" size="l">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </Para>
+              <button className="btn btn-lg hero-btn">
+                Learn More{" "}
+                <span>
+                  <AiOutlinePlus />
+                </span>
+              </button>{" "}
+            </div>
+
+
+
+              <div className="carousel-caption caption-1">
+              <div className="big-text">Lorem Ipsum is simply</div>
+              <Heading color="white" weight="bold" size="m">
+                {" "}
+                Start Up <span>Business</span> Solutions
+              </Heading>
+              {/* <p className="small-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard{" "}
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </span>
+              </p> */}
+              <Para weight="light" color="white" size="l">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </Para>
+              <button className="btn btn-lg hero-btn">
+                Learn More{" "}
+                <span>
+                  <AiOutlinePlus />
+                </span>
+              </button>{" "}
+            </div>
+
+
+              <div className="carousel-caption caption-1">
+              <div className="big-text">Lorem Ipsum is simply</div>
+              <Heading color="white" weight="bold" size="m">
+                {" "}
+                Start Up <span>Business</span> Solutions
+              </Heading>
+              {/* <p className="small-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard{" "}
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </span>
+              </p> */}
+              <Para weight="light" color="white" size="l">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard
+              </Para>
+              <button className="btn btn-lg hero-btn">
+                Learn More{" "}
+                <span>
+                  <AiOutlinePlus />
+                </span>
+              </button>{" "}
+            </div>

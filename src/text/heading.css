@@ -1,0 +1,50 @@
+h1.myHeading.s {
+  font-size: var(--big-text);
+}
+
+h1.myHeading.xs {
+  font-size: var(--medium-text);
+}
+
+h1.myHEading.xxs {
+  font-size: var(--medium2-text);
+}
+
+h1.myHeading {
+  /* font-family: "Roboto Slab", serif; */
+}
+
+h1.myHeading.m {
+  font-size: var(--massive-text);
+}
+
+h1.myHeading.l {
+  font-size: var(--super-text);
+}
+
+h1.myHeading.green {
+  color: var(--green);
+}
+
+h1.myHeading.blue {
+  color: var(--dark-blue);
+}
+
+h1.myHeading.white {
+  color: var(--white);
+}
+
+h1.myHeading.bold {
+  font-weight: bold;
+  line-height: 1;
+  word-spacing: 1px;
+}
+
+h1.myHeading.light {
+  font-weight: 300;
+}
+
+/* @media (max-width: 500px) {
+
+
+} */

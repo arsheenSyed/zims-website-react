@@ -1,0 +1,66 @@
+.round-btn {
+  text-transform: capitalize;
+  /* background-color: var(--blue);*/
+  color: white;
+  /* font-size: 1rem; */
+
+  --bs-btn-border-radius: 3.4rem;
+  font-size: 1.1rem;
+  /* margin-top: 0.5rem; */
+  /* --bs-btn-padding-y: 0.8rem;
+  --bs-btn-padding-x: 2rem; */
+}
+
+.round-btn span {
+  font-size: 1.2rem;
+}
+
+/* .round-btn:hover {
+  background-color: var(--blue-hover);
+} */
+
+.round-btn {
+  transition: 0.2s ease;
+}
+
+.round-btn.blue {
+  background-color: var(--blue);
+  /* transition: 0.2s ease; */
+}
+
+.round-btn.blue:hover {
+  background: var(--blue-hover);
+}
+
+.round-btn.green {
+  background-color: var(--green);
+  /* transition: 0.2s ease; */
+}
+
+.round-btn.green:hover {
+  background: var(--green-hover);
+}
+
+.round-btn.darkBlue {
+  background-color: var(--dark-blue);
+  transition: 0.2s ease;
+}
+
+.round-btn.darkBlue:hover {
+  background-color: var(--dark-blue);
+}
+
+.round-btn.l {
+  --bs-btn-padding-y: 0.8rem;
+  --bs-btn-padding-x: 2rem;
+}
+
+.round-btn.m {
+  --bs-btn-padding-y: 0.6rem;
+  --bs-btn-padding-x: 1.8rem;
+}
+
+.round-btn.s {
+  --bs-btn-padding-y: 0.6rem;
+  --bs-btn-padding-x: 1.6rem;
+}

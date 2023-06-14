@@ -1,0 +1,173 @@
+   <div className="col-md-6 col-sm-12 card-col">
+          <div className="card">
+            <img src={Img} />
+            <div className="intro">
+              <div className="container">
+                {/* <span className="heading paraM-text">MOH-Guidance</span> */}
+                <Para color="green" size="m" className="heading paraM-text">
+                  MOH-GUIDANCE
+                </Para>
+
+                <hr className="line" />
+
+                <Para color="white" size="l" weight="normal">
+                  Lorem Ipsum dolor sit amet
+                </Para>
+
+                {/* <span className="medium-text">Lorem Ipsum dolor sit amet</span> */}
+                {/* <br /> */}
+
+                <div className="hide-para">
+                  <Para color="white" size="s" weight="light">
+                    sum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's "break"
+                    <span className="">
+                      {" "}
+                      sum is simply dummy text of the printing and typesetting
+                      industry.
+                    </span>
+                  </Para>
+
+                  <a className="card-btn section-btn" href="#">
+                    Learn More
+                    <span>
+                      {/* <IoMdArrowDropright /> */}{" "}
+                      <IoIosArrowDroprightCircle />
+                    </span>
+                    {/* <IoIosArrowDroprightCircle /> */}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 card-col">
+          <div className="card">
+            <img src={Img} />
+            <div className="intro">
+              <div className="container">
+                {/* <span className="heading paraM-text">MOH-Guidance</span> */}
+                <Para color="green" size="m" className="heading paraM-text">
+                  MOH-GUIDANCE
+                </Para>
+
+                <hr className="line" />
+
+                <Para color="white" size="l">
+                  Lorem Ipsum dolor sit amet
+                </Para>
+
+                {/* <span className="medium-text">Lorem Ipsum dolor sit amet</span> */}
+                {/* <br /> */}
+
+                <div className="hide-para">
+                  <p className="paraM-text desc">
+                    sum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's "break"
+                    <span className="">
+                      {" "}
+                      sum is simply dummy text of the printing and typesetting
+                      industry.
+                    </span>
+                  </p>
+
+                  <a className="card-btn section-btn" href="#">
+                    Learn More
+                    <span>
+                      {/* <IoMdArrowDropright /> */}{" "}
+                      <IoIosArrowDroprightCircle />
+                    </span>
+                    {/* <IoIosArrowDroprightCircle /> */}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 card-col">
+          <div className="card">
+            <img src={Img} />
+            <div className="intro">
+              <div className="container">
+                {/* <span className="heading paraM-text">MOH-Guidance</span> */}
+                <Para color="green" size="m" className="heading paraM-text">
+                  MOH-GUIDANCE
+                </Para>
+
+                <hr className="line" />
+
+                <Para color="white" size="l">
+                  Lorem Ipsum dolor sit amet
+                </Para>
+
+                {/* <span className="medium-text">Lorem Ipsum dolor sit amet</span> */}
+                {/* <br /> */}
+
+                <div className="hide-para">
+                  <p className="paraM-text desc">
+                    sum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's "break"
+                    <span className="">
+                      {" "}
+                      sum is simply dummy text of the printing and typesetting
+                      industry.
+                    </span>
+                  </p>
+
+                  <a className="card-btn section-btn" href="#">
+                    Learn More
+                    <span>
+                      {/* <IoMdArrowDropright /> */}{" "}
+                      <IoIosArrowDroprightCircle />
+                    </span>
+                    {/* <IoIosArrowDroprightCircle /> */}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 card-col">
+          <div className="card">
+            <img src={Img} />
+            <div className="intro">
+              <div className="container">
+                {/* <span className="heading paraM-text">MOH-Guidance</span> */}
+                <Para color="green" size="m" className="heading paraM-text">
+                  MOH-GUIDANCE
+                </Para>
+
+                <hr className="line" />
+
+                <Para color="white" size="l">
+                  Lorem Ipsum dolor sit amet
+                </Para>
+
+                {/* <span className="medium-text">Lorem Ipsum dolor sit amet</span> */}
+                {/* <br /> */}
+
+                <div className="hide-para">
+                  <p className="paraM-text desc">
+                    sum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's "break"
+                    <span className="">
+                      {" "}
+                      sum is simply dummy text of the printing and typesetting
+                      industry.
+                    </span>
+                  </p>
+
+                  <a className="card-btn section-btn" href="#">
+                    Learn More
+                    <span>
+                      {/* <IoMdArrowDropright /> */}{" "}
+                      <IoIosArrowDroprightCircle />
+                    </span>
+                    {/* <IoIosArrowDroprightCircle /> */}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     
